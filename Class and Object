@@ -1,0 +1,23 @@
+#include<iostream>
+#include <cstdio>
+#include <climits>
+using namespace std;
+
+class aksh{
+    int a, b;
+    public:
+        aksh(){           //this is a default constructor having no argument(mandatory)
+            a = 10;
+            b = 20;
+        }
+        void putData(){     
+            cout<<"value of a is : "<<a<<endl;
+            cout<<"value of b is : "<<b<<endl;
+        }
+};
+
+int main(){
+    aksh shri;      //automatically call as object is created (default constructor)
+    shri.putData();
+    return 0;
+}
